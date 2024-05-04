@@ -28,5 +28,5 @@ type NameUnionAge = Name | Age;
 
 let name: NameUnionAge = { name: "Sam" };
 let age: NameUnionAge = { age: 20 };
-let name_plus_age = { name: "Sam", age: 20 };
-let name_plus_age_plus_height = { name: "Sam", age: 20, height: 180 };
+let name_plus_age:NameUnionAge = { name: "Sam", age: 20 };
+let name_plus_age_plus_height:NameUnionAge = { name: "Sam", age: 20, height: 180 }; // error 
